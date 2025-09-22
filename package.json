@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-ecomail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ecomail email provider for Strapi 5 - send transactional emails via Ecomail API",
   "main": "index.js",
   "types": "index.d.ts",
