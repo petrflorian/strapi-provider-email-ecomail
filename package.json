@@ -1,0 +1,60 @@
+{
+  "name": "strapi-provider-email-ecomail",
+  "version": "1.0.2",
+  "description": "Ecomail email provider for Strapi 5 - send transactional emails via Ecomail API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "prepare": "npm run build",
+    "build": "echo 'Build completed'"
+  },
+  "keywords": [
+    "strapi",
+    "strapi-provider",
+    "email",
+    "ecomail",
+    "transactional"
+  ],
+  "author": {
+    "name": "Petr Florian",
+    "email": "mail@petrflorian.com",
+    "url": "https://github.com/petrflorian"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrflorian/strapi-provider-email-ecomail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/petrflorian/strapi-provider-email-ecomail/issues"
+  },
+  "homepage": "https://github.com/petrflorian/strapi-provider-email-ecomail#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "strapi-provider-email-ecomail": "file:strapi-provider-email-ecomail-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

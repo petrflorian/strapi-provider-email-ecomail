@@ -1,0 +1,27 @@
+# Development files
+.git/
+.github/
+tests/
+src/
+docs/
+
+# Build tools
+webpack.config.js
+rollup.config.js
+tsconfig.json
+.babelrc
+.eslintrc*
+
+# Environment files
+.env*
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Test files
+coverage/
+jest.config.js
